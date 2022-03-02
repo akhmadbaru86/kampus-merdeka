@@ -1,11 +1,3 @@
 Kampus Merdeka
-Kita disini sudah belajar 
--HTML
--CSS 
--JAVASCRIPT
-sekarang sedang belajar github
-
-- Pembuatan Akun
-
-- Kapan Materi UI/UXnya ?
-
+Faris Ar Rasyid
+1A STTNF
