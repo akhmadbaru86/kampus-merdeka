@@ -1,11 +1,4 @@
 Kampus Merdeka
-Kita disini sudah belajar 
--HTML
--CSS 
--JAVASCRIPT
-sekarang sedang belajar github
-
-- Pembuatan Akun
-
-- Kapan Materi UI/UXnya ?
-
+Nama : Pugud Bendoro Jembar Pambudi
+NIM : 41037006191018
+Instansi : Universitas Islam Nusantara
