@@ -9,3 +9,5 @@ sekarang sedang belajar github
 
 - Kapan Materi UI/UXnya ?
 
+-ini tugas 1
+-membuat repositori baru
