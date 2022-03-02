@@ -1,0 +1,1 @@
+Bagaimana cara melakukan batal commit terhadap branch 
