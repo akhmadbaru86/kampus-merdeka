@@ -1,11 +1,5 @@
-Kampus Merdeka
-Kita disini sudah belajar 
--HTML
--CSS 
--JAVASCRIPT
-sekarang sedang belajar github
-
-- Pembuatan Akun
-
-- Kapan Materi UI/UXnya ?
+Nama: Joko Tri Aryanto
+Nim : 0110119053
+Prodi : Sistem Informasi
+Kelompok : 1A
 
