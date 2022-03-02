@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lingkaran</title>
+</head>
+
+<body>
+    <marquee onmouseover="stop()" onmouseout="start()">
+        <h3>Jari-jari, Diameter, Keliling, dan Luas Lingkaran</h3>
+    </marquee>
+    <hr />
+    <script>
+        var phi = 3.14;
+        var r = 14;
+        var d = r * 2;
+        var luas = phi * (r * r);
+        var keliling = 2 * (phi * r);
+        document.write("Jari-jari = " + r + "<br/>Diameter = " + d + "<br/>Keliling = " + keliling + "<br/>Luas = " + luas);
+    </script>
+</body>
+
+</html>
