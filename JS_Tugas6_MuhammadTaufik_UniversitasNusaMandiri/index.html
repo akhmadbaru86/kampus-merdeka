@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="card">
+      <h2>Kalkulator</h2>
+      <form action="" id="formulir">
+        <center>
+          <label for="angka1" id="bg" style="border-radius: 5px; font-size: 20px">Angka 1 =</label>
+          <input type="text" name="angka1" id="angka1" value="Input Angka 1" onclick="kosong1()" />
+          <br />
+          <label for="angka2" id="bg" style="border-radius: 5px; font-size: 20px">Angka 2 =</label>
+          <input type="text" name="angka2" id="angka2" value="Input Angka 2" onclick="kosong2()" />
+          <br />
+          <div id="bg">
+            <input type="button" name="kali" id="kali" value="X" onclick="hitung()" ondblclick="t()" />&nbsp; <input type="button" name="bagi" id="bagi" value="/" onclick="hitung2()" ondblclick="t()" />&nbsp;
+            <input type="button" name="tambah" id="tambah" value="+" onclick="hitung3()" ondblclick="t()" />&nbsp; <input type="button" name="kurang" id="kurang" value="-" onclick="hitung4()" ondblclick="t()" /> &nbsp;
+            <input type="button" name="pangkat" id="pangkat" value="^" onclick="hitung5()" ondblclick="t()" /> &nbsp; <input type="button" name="reset" id="reset" value="reset" onclick="hapus()" /> &nbsp;
+          </div>
+          <br />
+          <input type="text" name="hasil" id="hasil" disabled />
+          <br />
+        </center>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
