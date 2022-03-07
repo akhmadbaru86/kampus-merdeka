@@ -1,0 +1,39 @@
+body{
+    position: relative; 
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: gray;
+}
+
+p{
+    Margin-left : 13px;
+}
+
+.p1{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hasil{
+    Margin-left : 13px;
+    }
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    padding: 20px 25px;
+    width: 350px;
+
+    background-color: white;
+    box-shadow: white;
+}
+
+

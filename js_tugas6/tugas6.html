@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kalukator</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form id="formulir" class="form">
+                <h2>KALKULATORKU</h2>
+                <p>
+                    <label>Angka 1 </label>
+                    <input type="text" name="a1" onfocus="kosong1()" value="Angka1" /> 
+                </p>
+                <p>
+                    <label>Angka 2</label> 
+                    <input type="text" name="a2" onfocus="kosong2()" value="Angka2" />
+                </p>
+                <p>
+                    <label>Hasil </label> &nbsp;
+                    <input type=text class="hasil" name="hasil" value=""  disabled/> 
+                </p>
+                <p class="p1">
+                    <input type="button" name="tambah" value="+" onclick="hitung(this.name)"/>
+                    <input type="button" name="kurang" value="-" onclick="hitung(this.name)" />
+                    <input type="button" name="kali" value="X" onclick="hitung(this.name)" />
+                    <input type="button" name="bagi" value="/" onclick="hitung(this.name)" />
+                    <input type="button" name="pangkat" value="^" onclick="hitung(this.name)" />
+                    <input type="button" name="batal" value="Batal" onclick="kosongAll()" />
+                </p>
+            </form>
+        </div>
+
+        <script src="js/skripku.js"></script>
+    </body>
+</html>
