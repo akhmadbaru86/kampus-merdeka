@@ -1,0 +1,47 @@
+<script>
+  class Gempa {
+    constructor(lokasi, skala) {
+      this.lokasi = lokasi;
+      this.skala = skala;
+    }
+    dampak() {
+      if (this.skala <= 2) {
+        document.write(`Lokasi Gempa : ${this.lokasi} <br/>
+        Skala  : ${this.skala} <br/>
+        Dampak :Tidak terasa <hr/>`);
+      } else if (this.skala <= 4) {
+        document.write(`Lokasi Gempa : ${this.lokasi} <br/>
+        Skala  : ${this.skala} <br/>
+        Dampak : Bangunan Retak-Retak <hr/>`);
+      } else if (this.skala <= 6) {
+        document.write(`Lokasi Gempa : ${this.lokasi} <br/>
+        Skala  : ${this.skala} <br/>
+        Dampak : Bangunan Roboh <hr/>`);
+      } else {
+        document.write(`Lokasi Gempa : ${this.lokasi} <br/>
+        Skala  : ${this.skala} <br/>
+        Dampak : Bangunan Roboh dan Bepotensi Tsunami <hr/>`);
+      }
+    }
+  }
+
+  let g1 = new Gempa("Banten", 2);
+  let g2 = new Gempa("Bandung", 3);
+  let g3 = new Gempa("Banda Aceh", 4);
+  let g4 = new Gempa("Batam", 5);
+  let g5 = new Gempa("Batak", 6);
+  let g6 = new Gempa("Batim", 7);
+  let g7 = new Gempa("Amerika", 8);
+  let g8 = new Gempa("Australia", 9);
+  let g9 = new Gempa("Afrika", 10);
+
+  g1.dampak();
+  g2.dampak();
+  g3.dampak();
+  g4.dampak();
+  g5.dampak();
+  g6.dampak();
+  g7.dampak();
+  g8.dampak();
+  g9.dampak();
+</script>
