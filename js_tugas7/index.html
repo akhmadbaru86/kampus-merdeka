@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            
+                <p>
+                    <h2 >Update Berita Gempa Bumi Hari</h2>
+                    <a href="https://www.data.jma.go.jp/multi/quake/index.html?lang=id" target="_blank">informasi gempa bumi</a>
+                </p>
+            
+            <hr>
+
+            <form class="form">
+                <script>
+                    //---------Membuat class-----------
+                    class Gempa {
+                        constructor(lokasi, skala) {
+                            this.lokasi = lokasi;
+                            this.skala = skala;
+                        }
+
+                        dampak() {
+                            let skl = this.skala;
+                            let dampak;
+                            if (skl >= 0 && skl<= 2) dampak = "Tidak terasa";
+                            else if(skl > 3 && skl <= 4) dampak = "Bangunan retak-retak";
+                            else if(skl > 4 &&  skl <= 6) dampak = "Bangunan roboh";
+                            else if(skl > 6) dampak = "Bangunan roboh dan berpotensi tsunami";
+                            document.write(`
+                            <div class="group">
+                                <label>Lokasi gempa</label>
+                                <input class="lokasi" type="text" name="lokasi" value="${this.lokasi}" disabled>
+                            </div>
+                            <div class="group">
+                                <label>Skala Kekuatan</label>
+                                <input class="skala" type="text" name="skala" value="${skl} SR" disabled>
+                            </div>
+                            <div class="group">
+                                <label>Dampak yang ditimbulkan</label>
+                                <input class="" type="text" name="dampak" value="${dampak}" disabled>
+                            </div>
+                            <hr>`);
+                
+                        }
+                    }
+
+                    //--------menciptakan object----------
+
+                    let dt1 = new Gempa('Lepas Pantai Prefektur Miyagi', 3.8);
+                    let dt2 = new Gempa('Bagian Selatan Prefektur Nagano', 2.0);
+                    let dt3 = new Gempa('Daerah Shonai di Prefektur Yamagata', 3.3);
+                    let dt4 = new Gempa('Daerah Osumi di Prefektur Kagoshima', 3.2);
+                    let dt5 = new Gempa('Lepas Pantai Barat Laut di Pulau Utama Okinawa', 4.4);
+                    let dt6 = new Gempa('Laut yang Berdekatan dengan Pulau Utama Okinawa', 4.0);
+                    let dt7 = new Gempa('Daerah Noto di Prefektur Ishikawa', 3.5);
+                    let dt8 = new Gempa('Daerah Nemuro Selatan', 3.9);
+                    let dt9 = new Gempa('Bagian Selatan Prefektur Ibaraki ', 2.9);
+                    let dt10 = new Gempa('Laut yang Berdekatan dengan Pulau Chichijima', 7);
+                    //dst 
+
+                    //cetak
+                    
+                        dt1.dampak();
+                        dt2.dampak();
+                        dt3.dampak();
+                        dt4.dampak();
+                        dt5.dampak();
+                        dt6.dampak();
+                        dt7.dampak();
+                        dt8.dampak();
+                        dt9.dampak();
+                        dt10.dampak();
+                    
+                </script>
+            </form>
+        </div>
+    </body>
+</html>

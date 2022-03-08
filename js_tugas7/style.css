@@ -1,0 +1,49 @@
+body{
+    padding-bottom: 50px;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(253, 246, 248);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+input{
+    width: 70%;
+    border-radius: 5px;
+    color: black;
+    height: 18pt;
+    border-color: rgba(128, 128, 128, 0.5);
+    background-color: white;
+}
+
+.lokasi{
+    Margin-left : 71px;
+    }
+
+.skala{
+    Margin-left : 60px;
+    }
+
+.form{
+    margin-top: 16pt;
+}
+h2{ 
+    text-align: center;
+}
+#form{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+hr{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    background-color: black;
+    height: 3px;
+    border-radius: 2px;
+}
+
