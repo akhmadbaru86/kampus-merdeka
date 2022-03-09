@@ -1,0 +1,116 @@
+h2 {
+  font-family: "Calibri";
+  font-size: 35px;
+  text-align: center;
+  background-color: wheat;
+}
+body {
+  background-color: beige;
+}
+
+#bg {
+  background-color: wheat;
+}
+#card {
+  background-image: url(https://i.pinimg.com/564x/90/10/55/901055ad93f13fb4d88a586e7362710a.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 2px 0px;
+  height: 350px;
+  margin: 6rem auto 0.1rem auto;
+  width: 400px;
+  padding: 15px;
+}
+input#angka1,
+#angka2,
+#hasil {
+  width: 50%;
+  padding: 15px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+select#produk {
+  width: 50%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  font-family: sans-serif;
+  font-style: italic;
+  font-style: bold;
+}
+p {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: wheat;
+  border-color: black;
+  text-align: center;
+}
+
+input.button {
+  background-color: #836953; /* Green */
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #c19a6b;
+}
+div.bebek {
+  background-image: url("https://2.bp.blogspot.com/-w1ruIwqyGxA/WAoGPBALksI/AAAAAAAADU4/qz79o1PFLk8drKngwYgWCdb8dqj3ssiRgCLcB/s1600/gambar-bergerak-gif-duffy-duck-memukul.gif");
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 10px;
+  cursor: pointer;
+  background-size: cover;
+}
+div.anjing {
+  background-image: url("https://i.pinimg.com/originals/c8/12/02/c812024b2f55f5f458dd898505e29800.gif");
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 10px;
+  cursor: pointer;
+}
+div.kucing {
+  background-image: url("https://media1.tenor.com/images/29ffbae3b0ebefe7d13d39c5b7b010aa/tenor.gif?itemid=12450917 ");
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 10px;
+  cursor: pointer;
+}
+div.sapi {
+  background-image: url("https://th.bing.com/th/id/OIP.7ac6jJgS6zS6ky19zxbjcgAAAA?pid=ImgDet&rs=1 ");
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 10px;
+  cursor: pointer;
+}
+div.pesan,
+p.flip,
+.pesan1,
+.flip1 {
+  float: left;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 320px;
+  background: wheat;
+  border: 2px ridge #836953;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tugas 8 Jquery</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      $("document").ready(function () {
+        $("div.bebek").click(function () {
+          $("<audio></audio>")
+            .attr({
+              src: "audio/bebek.mp3",
+              volume: 0.4,
+              autoplay: "autoplay",
+            })
+            .appendTo("body");
+        });
+        $("div.anjing").click(function () {
+          $("<audio></audio>")
+            .attr({
+              src: "audio/anjing.mp3",
+              volume: 0.4,
+              autoplay: "autoplay",
+            })
+            .appendTo("body");
+        });
+        $("div.kucing").click(function () {
+          $("<audio></audio>")
+            .attr({
+              src: "audio/kucing.mp3",
+              volume: 0.4,
+              autoplay: "autoplay",
+            })
+            .appendTo("body");
+        });
+        $("div.sapi").click(function () {
+          $("<audio></audio>")
+            .attr({
+              src: "audio/sapi.mp3",
+              volume: 0.4,
+              autoplay: "autoplay",
+            })
+            .appendTo("body");
+        });
+      });
+
+      $("document").ready(function () {
+        $(".flip").click(function () {
+          $(".pesan").slideToggle("slow");
+        });
+        $(".flip1").click(function () {
+          $(".pesan1").slideToggle("slow");
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <p align="center">Klik pada setiap kotak untuk menampilkan hewan</p>
+    <table>
+      <tr>
+        <div class="bebek">hewan bebek</div>
+      </tr>
+      <tr>
+        <div class="anjing">Ini Hewan anjing</div>
+      </tr>
+      <tr>
+        <div class="kucing">Ini Hewan Kucing</div>
+      </tr>
+      <tr>
+        <div class="sapi">ini Hewan Sapi</div>
+      </tr>
+    </table>
+    <br />
+    <table>
+      <tr>
+        <td>
+          <div class="pesan">
+            Visi & Misi: <br />
+            <p>
+              Visi Menjadi institusi pelatihan yang kompeten dan profesional di bidang pendidikan teknologi informasi dan komunikasi di berbagai wilayah indonesia. Misi Membangun, memelihara dan mengembangkan institusi pelatihan bisnis
+              berdaya saing tinggi, berkarakter profesional, kompeten, mengedepankan integritas dan tanggung jawab sosial, dengan mengembangkan dan menyediakan produk produk pendidikan dan pelatihan teknologi informasi dan komunikasi prima.
+            </p>
+          </div>
+          <p class="flip">Visi & Misi</p>
+          <div class="pesan1">
+            Deskripsi Bisnis: <br />
+            <p>
+              Visi Menjadi institusi pelatihan yang kompeten dan profesional di bidang pendidikan teknologi informasi dan komunikasi di berbagai wilayah indonesia. Misi Membangun, memelihara dan mengembangkan institusi pelatihan bisnis
+              berdaya saing tinggi, berkarakter profesional, kompeten, mengedepankan integritas dan tanggung jawab sosial, dengan mengembangkan dan menyediakan produk produk pendidikan dan pelatihan teknologi informasi dan komunikasi prima.
+            </p>
+          </div>
+          <p class="flip1">Deskripsi Bisnis</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
