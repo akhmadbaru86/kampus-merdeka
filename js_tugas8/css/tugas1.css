@@ -1,0 +1,46 @@
+.container {
+    width: 400px;
+    margin: auto;
+}
+.bingkai, .bingkai1, .bingkai2, .bingkai3, .bingkai4{
+    cursor: grab;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.301), 0px 0px 10px rgba(0, 0, 0, 0.322);
+    background-size : cover;
+    border-radius: 20px;
+}
+.button{
+    width: 300px;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+.btn{
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: transparent;
+    float: left;
+    margin-left: 25px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: brown;
+    color: white;
+}
+h3{
+    color: black;
+    text-align: center;
+}
+img{
+    width: 50%;
+}
+
+

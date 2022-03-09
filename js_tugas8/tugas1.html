@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 1</title>
+        <link rel="stylesheet" href="css/tugas1.css">
+    </head>
+    <body>
+        <div class="container">
+        
+            <div>
+                <h3>Klik Tombol Untuk Menampilkan Gambar</h3>
+            </div>
+            <div class="bingkai" id="bingkai">
+                <img id="cek1" src="img/.jpg" alt=""> 
+            </div>
+            <div class="bingkai1" id="bingkai">
+                <img id="cek2" src="img/.jpg" alt=""> 
+            </div>
+            <div class="bingkai2" id="bingkai">
+                <img id="cek3" src="img/.jpg" alt=""> 
+            </div>
+            <div class="bingkai3" id="bingkai">
+                <img id="cek4" src="img/.jpg" alt=""> 
+            </div>
+        
+            <div class="button">
+                <button class="btn" id="ayam">Ayam</button>
+                <button class="btn" id="sapi">Sapi</button>
+                <button class="btn" id="kambing">Kambing</button>
+                <button class="btn" id="anjing">Anjing</button>
+            </div>
+
+            <audio id="audioAyam" src="audio/ayam.mp3" type="audio/mpeg"></audio>
+            <audio id="audioSapi" src="audio/sapi.mp3" type="audio/mpeg"></audio>
+            <audio id="audioKambing" src="audio/kambing.mp3" type="audio/mpeg"></audio>
+            <audio id="audioAnjing" src="audio/anjing.mp3" type="audio/mpeg"></audio>
+
+        </div>
+
+        
+
+       <!-- <script src="js/jquery.js"></script> -->
+    <script src="js/jquery1.js"></script>
+    <script>
+        $("document").ready(function () {
+            //control audio
+            var audioAyam = $("#audioAyam")[0];
+            var audioBebek = $("#audioSapi")[0];
+            var audioCamar = $("#audioKambing")[0];
+            var audioAngsa = $("#audioAnjing")[0];
+
+            $("#ayam").click(function () {
+                $(".bingkai").css({
+                    "background-image": "url(img/ayam.jpg)",
+                })
+                audioAyam.play();
+                audioBebek.pause();
+                audioCamar.pause();
+                audioAngsa.pause();
+            })
+            $("#sapi").click(function () {
+                $(".bingkai1").css({
+                    "background-image": "url(img/sapi.jpg)",
+                })
+                audioBebek.play();
+                audioAyam.pause();
+                audioCamar.pause();
+                audioAngsa.pause();
+            })
+            $("#kambing").click(function () {
+                $(".bingkai2").css({
+                    "background-image": "url(img/kambing.jpg)",
+                })
+                audioAyam.pause();
+                audioBebek.pause();
+                audioCamar.play();
+                audioAngsa.pause();
+            })
+            $("#anjing").click(function () {
+                $(".bingkai3").css({
+                    "background-image": "url(img/anjing.jpg)",
+                })
+                audioAyam.pause();
+                audioBebek.pause();
+                audioCamar.pause();
+                audioAngsa.play();
+            })
+        });
+    </script>
+        </script>
+    </body>
+</html>
