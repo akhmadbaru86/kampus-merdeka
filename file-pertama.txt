@@ -1,3 +1,7 @@
+ NAMA: Ridho Musyaffa
+ KELOMPOK: 1A
+ KAMPUS: STT NF
+
 Kampus Merdeka
 Kita disini sudah belajar 
 -HTML
